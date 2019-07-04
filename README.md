@@ -1,7 +1,7 @@
-## TWBA-Nets: Deep neural networks with ternary weights {-1,0,+1} and binary activations {0,1} 
-***
+## TWBA-Nets: Deep neural networks with ternary weights {-1,0,+1} and binary activations {0,1}
 
-**This code can be used as a reference for the paper: "Deep Spiking Convolutional Neural Networks for Programmable Neuro-synaptic System"**
+***
+**This code can be used as a reference for the paper: "Deep Spiking Convolutional Neural Networks for Programmable Neuro-synaptic System".**
 ***
 
 ### Citation:
@@ -28,13 +28,13 @@ This work relies on Tensorflow==1.5.0 and Tensorlayer==1.8.4, we only modify a l
 
 ### File overview:
 
-BWBA - the folder for BWBA example.  
-BWBA/cifar10_bwba_example.py - the BWBA example script on CIFAR10 dataset.
-TWBA - the folder for TWBA example.
-TWBA/cifar10_twba_example.py - the TWBA training example script on CIFAR10 dataset.
-TWBA/cifar10_twba_spikes.py - the test script for counting spikes on CIFAR10 dataset.
-binary.py - the provided quantization script for replacing original script.
-README.md - this readme file.
+- BWBA - the folder for BWBA example.  
+- BWBA/cifar10_bwba_example.py - the BWBA example script on CIFAR10 dataset.
+- TWBA - the folder for TWBA example.
+- TWBA/cifar10_twba_example.py - the TWBA training example script on CIFAR10 dataset.
+- TWBA/cifar10_twba_spikes.py - the test script for counting spikes on CIFAR10 dataset.
+- binary.py - the provided quantization script for replacing original script.
+- README.md - this readme file.
 
 
 ### Usage:
